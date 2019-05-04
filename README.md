@@ -33,6 +33,10 @@ sudo make install
 sudo modprobe 8821cu
 ```
 ## Raspberry Pi
+Install essantials:
+```
+sudo apt-get install bc dkms raspberrypi-kernel-headers build-essential
+```
 To build this driver on Raspberry Pi you need to set correct platform in Makefile.
 Change
 ```
